@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+      integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
+      crossorigin="anonymous"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Blinker:wght@100;200;300;400;700;800&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./cart.css" />
+    <link rel="stylesheet" href="CSS/main.css" />
+
+    <title>MerlinMart</title>
+  </head>
+  
+  <body>
+    <header class="navigation-container">
+      <nav class="navigation-left logo">
+        <a class="logo-link" href="../../index.html">
+            <h2 class="nav-logo">MerlinMart</h2>
+        </a>
+      </nav>
+
+      <nav class="navigation-center searchbar">
+        <input type="search" placeholder="Search" class="input-search" />
+      </nav>
+
+      <nav class="navigation-right links">
+        <a href="../Login/login.html" class="links">
+          <button class="button button-primary login-button">Login</button>
+        </a>
+
+        <div class="badge icon-badge wishlist-badge">
+          <a href="../Wishlist/wishlist.html">
+            <img src="../../assets/wishlist.svg" alt="wishlist-option" />
+          </a>
+        </div>
+
+        <div class="badge icon-badge cart-badge">
+          <a href="../Cart/cart.html">
+            <img src="../../assets/cart.svg" alt="cart-option" />
+          </a>
+        </div>
+      </nav>
+    </header>
+
+    <main class="cart-container">
+        <header class="my-cart-title">My Cart (2)</header>
+        <div class="cart-wrapper">
+            <div class="product-list-container">
+                <div class="product-image-section">
+                    <img src="../../assets/men-premium-jacket.svg" alt="men premium jacket" />
+                </div>
+                <div class="product-description-section">
+                    <header class="product-title">Men Premium Jacket</header>
+                    <div class="price-amount-section">
+                        <div class="product-actual-price">₹2000</div>
+                        <div class="product-mrp-price">₹3999</div>
+                    </div>
+                    <span class="product-discount-rate">50% off</span>
+                    <div>
+                        <span class="quantity-text">
+                            Quantity:
+                        </span> 
+                        <button class="quantity-decrement-button">
+                            <span class="decrement-text">-</span></button> <span class="quanity-number-text">0</span> <button class="quantity-increment-button"><span class="increment-text">+</span></button> 
+                    </div>
+                    <button class="remove-cart-button"><span class="remove-cart-text">Remove From Cart</span></button>
+                    <button class="move-wishlist-button"><span class="move-wishlist-text">Move to Wishlist</span></button>
+                </div>
+
+                
+            </div>
+            <div class="total-price-details-container">
+                <header class="price-details-title">Price Details</header>
+                <hr class="section-separator" />
+                <section class="price-details-section">
+                    <div class="subsection-details exact-price-total-item-subsection">
+                        <span class="exact-price-total-item-title">
+                            Price(2 items)
+                        </span>
+                        <span class="exact-price-total-amount">
+                            ₹4999
+                        </span>
+                    </div>
+
+                    <div class="subsection-details discount-subsection">
+                        <span class="discount-title">
+                            Discount
+                        </span>
+                        <span class="discount-amount">
+                            - ₹1999
+                        </span>
+                    </div>
+
+                    <div class="subsection-details delivery-charges-subsection">
+                        <span class="delivery-charges-title">
+                            Delivery Charges
+                        </span>
+                        <span class="delivery-charges-amount">
+                            ₹499
+                        </span>
+                    </div> 
+                </section>
+
+                <hr class="section-separator" />
+
+                <div class="total-amount-container">
+                    <span class="total-amount-title">
+                        TOTAL AMOUNT
+                    </span>
+                    <span class="total-amount-price">
+                        ₹3499
+                    </span>
+                </div>
+
+                <hr class="section-separator" />
+
+                <span class="amount-saved-text">
+                    You will save ₹1999 on this order
+                </span>
+
+                <div class="place-order-container">
+                    <button class="place-order-button">
+                        <span class="place-order-text">PLACE ORDER</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- <footer class="footer-container">© 2022-23 | Code by Soumik</footer> -->
+  </body>
+</html>
