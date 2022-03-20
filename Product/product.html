@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous" 
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Blinker:wght@100;200;300;400;700;800&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="../../style.css">
+    <link rel="stylesheet" href="./product.css">
+
+    <title>MerlinMart</title>
+</head>
+<body>
+    <header class="navigation-container">
+      <nav class="navigation-left logo">
+        <a class="logo-link" href="../../index.html">
+            <h2 class="nav-logo">MerlinMart</h2>
+        </a>
+      </nav>
+
+      <nav class="navigation-center searchbar">
+        <input type="search" placeholder="Search" class="input-search" />
+      </nav>
+
+      <nav class="navigation-right links">
+        <a href="../Login/login.html" class="links">
+          <button class="button button-primary login-button">Login</button>
+        </a>
+
+        <div class="badge icon-badge wishlist-badge">
+          <a href="../Wishlist/wishlist.html">
+            <img src="../../assets/wishlist.svg" alt="wishlist-option" />
+          </a>
+        </div>
+
+        <div class="badge icon-badge cart-badge">
+          <a href="../Cart/cart.html">
+            <img src="../../assets/cart.svg" alt="cart-option" />
+          </a>
+        </div>
+      </nav>
+    </header>
+
+   <section class="products-container">
+        <div class="products-wrapper">
+            <div class="sidebar-section">
+                <header class="sidebar-header">
+                    <span class="filters-title">Filters</span>
+                    <span class="clear-title">Clear</span>
+                </header>
+                <div class="price-section">
+                    <span class="price-title">Price</span>
+                    <p class="price-rangle-values"><span>50</span> <span>150</span> <span>200</span></p>
+                    <div class="price-input-container">
+                        <input class="price-range" type="range" min="50" max="200" value="150">
+                    </div>
+                </div>
+                <div class="category-container">
+                    <header class="category-title">
+                        Category
+                    </header>
+                    <div class="men-clothing-checkbox">
+                        <input type="checkbox" name="" id="" />
+                        <span>Men Clothing</span>
+                    </div>
+                    <div class="men-clothing-checkbox">
+                        <input type="checkbox" name="" id="" />
+                        <span>Men Clothing</span>
+                    </div>
+                </div>
+
+                <div class="rating-container">
+                    <header class="rating-title">
+                        Rating
+                    </header>
+
+                    <div class="start-rating-option">
+                        <input type="radio">
+                        <span>4 stars & above</span>
+                    </div>
+
+                    <div class="start-rating-option">
+                        <input type="radio">
+                        <span>3 stars & above</span>
+                    </div>
+
+                    <div class="start-rating-option">
+                        <input type="radio">
+                        <span>2 stars & above</span>
+                    </div>
+
+                    <div class="start-rating-option">
+                        <input type="radio">
+                        <span>1 stars & above</span>
+                    </div>
+                </div>
+
+                <div class="sort-by-container">
+                    <header class="sort-by-title">
+                        Sort By
+                    </header>
+                    <div class="sort-by-radio-button">
+                        <input type="radio">
+                        <span>Price - Low to High</span>
+                    </div>
+
+                    <div class="sort-by-radio-button">
+                        <input type="radio">
+                        <span>Price - High to Low</span>
+                    </div>
+                </div>
+            </div>
+            <div class="allproducts-section">
+                <header class="allproducts-title"> 
+                    <div class="show-all-products-title">
+                        Showing All Products 
+                    </div>
+                    <div class="total-products-title">
+                        (Showing 9 products)
+                    </div>
+                </header>
+
+                <div class="product-card-container">
+                    <div class="product-card-content">
+                        <img class="product-image" src="../../assets/men-premium-jacket.svg" alt="men premium jacket">
+                        <div class="product-description">
+                            <div>Men Premium Jacket</div>
+                            <div class="product-price">₹2000</div>
+                        </div>
+                        <button class="add-cart-button"><span class="add-card-text">Add to Cart</span></button>
+                    </div>
+
+                    <div class="product-card-content">
+                        <img class="product-image" src="../../assets/men-premium-jacket.svg" alt="men premium jacket">
+                        <div class="product-description">
+                            <div>Men Premium Jacket</div>
+                            <div class="product-price">₹2000</div>
+                        </div>
+                        <button class="add-cart-button">Add to Cart</button>
+                    </div>
+
+                    <div class="product-card-content">
+                        <img class="product-image" src="../../assets/men-premium-jacket.svg" alt="men premium jacket">
+                        <div class="product-description">
+                            <div>Men Premium Jacket</div>
+                            <div class="product-price">₹2000</div>
+                        </div>
+                        <button class="add-cart-button">Add to Cart</button>
+                    </div>
+
+                    <div class="product-card-content">
+                        <img class="product-image" src="../../assets/men-premium-jacket.svg" alt="men premium jacket">
+                        <div class="product-description">
+                            <div>Men Premium Jacket</div>
+                            <div class="product-price">₹2000</div>
+                        </div>
+                        <button class="add-cart-button">Add to Cart</button>
+                    </div>
+
+                    <div class="product-card-content">
+                        <img class="product-image" src="../../assets/men-premium-jacket.svg" alt="men premium jacket">
+                        <div class="product-description">
+                            <div>Men Premium Jacket</div>
+                            <div class="product-price">₹2000</div>
+                        </div>
+                        <button class="add-cart-button">Add to Cart</button>
+                    </div>
+
+                    <div class="product-card-content">
+                        <img class="product-image" src="../../assets/men-premium-jacket.svg" alt="men premium jacket">
+                        <div class="product-description">
+                            <div>Men Premium Jacket</div>
+                            <div class="product-price">₹2000</div>
+                        </div>
+                        <button class="add-cart-button">Add to Cart</button>
+                    </div>
+
+                    <div class="product-card-content">
+                        <img class="product-image" src="../../assets/men-premium-jacket.svg" alt="men premium jacket">
+                        <div class="product-description">
+                            <div>Men Premium Jacket</div>
+                            <div class="product-price">₹2000</div>
+                        </div>
+                        <button class="add-cart-button">Add to Cart</button>
+                    </div>
+
+                    <div class="product-card-content">
+                        <img class="product-image" src="../../assets/men-premium-jacket.svg" alt="men premium jacket">
+                        <div class="product-description">
+                            <div>Men Premium Jacket</div>
+                            <div class="product-price">₹2000</div>
+                        </div>
+                        <button class="add-cart-button">Add to Cart</button>
+                    </div>
+
+                    <div class="product-card-content">
+                        <img class="product-image" src="../../assets/men-premium-jacket.svg" alt="men premium jacket">
+                        <div class="product-description">
+                            <div>Men Premium Jacket</div>
+                            <div class="product-price">₹2000</div>
+                        </div>
+                        <button class="add-cart-button">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+   </section>
+
+    <!-- <footer class="footer-container">
+        © 2022-23 | Code by Soumik 
+    </footer> -->
+
+</body>
+</html>
