@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous" 
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Blinker:wght@100;200;300;400;700;800&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="../../style.css">
+    <link rel="stylesheet" href="./signup.css">
+    <link rel="stylesheet" href="../Login/login.css">
+
+    <title>MerlinMart</title>
+</head>
+<body>
+    <header class="navigation-container">
+      <nav class="navigation-left logo">
+        <a class="logo-link" href="../../index.html">
+            <h2 class="nav-logo">MerlinMart</h2>
+        </a>
+      </nav>
+
+      <nav class="navigation-center searchbar">
+        <input type="search" placeholder="Search" class="input-search" />
+      </nav>
+
+      <nav class="navigation-right links">
+        <a href="../Login/login.html" class="links">
+          <button class="button button-primary login-button">Login</button>
+        </a>
+
+        <div class="badge icon-badge wishlist-badge">
+          <a href="../Wishlist/wishlist.html">
+            <img src="../../assets/wishlist.svg" alt="wishlist-option" />
+          </a>
+        </div>
+
+        <div class="badge icon-badge cart-badge">
+          <a href="../Cart/cart.html">
+            <img src="../../assets/cart.svg" alt="cart-option" />
+          </a>
+        </div>
+      </nav>
+    </header>
+
+    <section class="signup-container">
+        <form class="signup-form">
+            <header class="signup-header">
+                Signup
+            </header>
+
+            <div class="signup-input-row">
+                <label class="signup-label signup-email-label">Email Address </label>
+                <input class="signup-input signup-input-name" type="text" placeholder="soumik@neog.camp" />
+            </div>
+
+            <div class="signup-input-row">
+                <label class="signup-label signup-password-label">Password </label>
+                <input class="signup-input signup-input-password" type="password" placeholder="****************" />
+            </div>
+
+            <div class="signup-input-row">
+                <label class="signup-label signup-checkbox">
+                    <input type="checkbox" class="signup-input signup-checkbox-input" />
+                    <span class="signup-checkbox-text">Accept all terms and conditions</span>
+                </label>
+            </div>
+
+            <footer class="signup-footer">
+                <button class="button signup-submit-button">Create New Account</button>
+            </footer>
+        </form>
+    </section>
+
+    <footer class="footer-container">
+        © 2022-23 | Code by Soumik 
+    </footer>
+
+</body>
+</html>
